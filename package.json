@@ -5,11 +5,8 @@
     "main": "src/server.js",
     "scripts": {
         "server": "node src/server.js",
-        "start": "node src/server.js",
-        "build": "node src/server.js"
-    },
-    "engines" : { 
-        "node" : "16.13.2"
+        "start": "parcel public/index.html",
+        "build": "parcel build public/index.html"
     },
     "author": "",
     "license": "MIT",
