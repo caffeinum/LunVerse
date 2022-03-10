@@ -26,6 +26,8 @@ require('./socketcontroller.js')(io)
 
 
 
-server.listen(port, function(){
-    console.log('listening on *:' + port);
-});
+// server.listen(port, function(){
+//     console.log('listening on *:' + port);
+// });
+
+module.exports = app;

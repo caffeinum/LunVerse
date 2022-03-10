@@ -1,12 +1,10 @@
 {
-    "name": "simple-p2p-with-webrtc",
+    "name": "lun-verse",
     "version": "0.1.0",
     "description": "",
     "main": "src/server.js",
     "scripts": {
-        "server": "node src/server.js",
-        "start": "parcel public/index.html",
-        "build": "parcel build public/index.html"
+        "server": "node src/server.js"
     },
     "author": "",
     "license": "MIT",
